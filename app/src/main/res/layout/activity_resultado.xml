@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultadoActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="131dp"
+        android:layout_height="119dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973"
+        app:srcCompat="@drawable/_b5cfcfc24483b62b2bb082933548d26_color_de_frutas_y_verduras_11" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="271dp"
+        android:layout_height="34dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="resultado de calculo"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="271dp"
+        android:layout_height="34dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Verduras Verdes"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <EditText
+        android:id="@+id/getresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="$000000000"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="131dp"
+        android:layout_height="119dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973"
+        app:srcCompat="@drawable/_b5cfcfc24483b62b2bb082933548d26_color_de_frutas_y_verduras_11" />
+
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="N°"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="N°"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <TextView
+        android:id="@+id/totalxh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Total por Hectarea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508" />
+
+    <TextView
+        android:id="@+id/valorvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Costo Verduras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="271dp"
+        android:layout_height="34dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Verduras Verdes"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/clearbtn"
+        android:layout_width="113dp"
+        android:layout_height="57dp"
+        android:background="#00C4FF"
+        android:backgroundTint="#00C4FF"
+        android:text="Limpiar"
+        android:textColorHighlight="@color/white"
+        android:textColorLink="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <Button
+        android:id="@+id/matchbtn"
+        android:layout_width="113dp"
+        android:layout_height="57dp"
+        android:background="#00C4FF"
+        android:text="Calcular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
